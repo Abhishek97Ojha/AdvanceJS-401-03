@@ -6,6 +6,7 @@ var img=[];
         let i = 0;
         let image=document.getElementById("image-slide");
         console.log(img);
+        setInterval("nextImg()",4000);
         
         function nextImg(){
            if(i<img.length-1){
